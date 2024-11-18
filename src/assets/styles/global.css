@@ -17,6 +17,7 @@ body {
     font-weight: 400;
     color: #373737;
     text-align: left;
+    scroll-behavior: smooth;
 }
 
 .btn-general {

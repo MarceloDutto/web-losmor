@@ -16,6 +16,7 @@ import LosMor from "./pages/LosMor/LosMor";
 import Matrimonio from "./pages/Matrimonio/Matrimonio";
 import ConJuan from "./pages/ConJuan/ConJuan";
 import PoshoEri from "./pages/PoshoEri/PoshoEri";
+import BackToTopButton from "./components/BackToTopButton/BackToTopButton";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route exact path="/conjuan" element={ <ConJuan /> } />
             <Route exact path="/poshoyeri" element={ <PoshoEri /> } />
           </Routes>
+          <BackToTopButton />
           <MainFooter />
         </div>
     </BrowserRouter>
