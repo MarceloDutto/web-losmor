@@ -6,18 +6,14 @@
     bottom: 64px;
     right: 32px;
     border-radius: 5px;
-    background-color: #121212ee;
+    background-color: var(--button-background);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 10;
-    transition: all .3s ease-in;
+    transition: color .2s ease-in;
 }
 
-svg {
-    transition: color 0.15s ease-in;
-}
-
-.to-top:hover svg {
-    color: #bdbdbd;
+.to-top:hover {
+    background-color: var(--button-background-hover);
 }

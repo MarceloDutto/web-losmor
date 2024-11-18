@@ -48,9 +48,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .625rem;
     transition: transform .5s;
     transition-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+    border-radius: 3px;
 }
 
 .mosaic-first {
@@ -67,9 +67,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .625rem;
     transition: transform .5s;
     transition-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+    border-radius: 3px;
 }
 
 .mosaic-img {
@@ -81,7 +81,6 @@ main {
     display: inline-block;
     vertical-align: middle;
     filter: grayscale(100%);
-
 }
 
 .mosaic-top {
@@ -93,14 +92,14 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .625rem;
     margin-bottom: 1.125rem;
     transition: transform .5s;
     transition-timing-function: cubic-bezier(0.25,0.46,0.45,0.94);
+    border-radius: 3px;
 }
 
 .mosaic:hover, .mosaic-down:hover, .mosaic-top:hover {
-    transform: scale(.97);
+    transform: scale(1.02);
 }
 
 .nav-link {
@@ -121,4 +120,25 @@ main {
     background-color: #1212127a;
     padding: 4px 8px;
     text-transform: none;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .link-text {
+        font-size: 1.4rem;
+        text-wrap: balance;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .links-block {
+        flex-direction: column;
+        gap: 1.125rem;
+    }
+
+    .first-block, 
+    .second-block {
+        width: 100%;
+        margin-right: 0;
+    }
 }
