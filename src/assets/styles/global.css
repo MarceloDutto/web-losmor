@@ -1,0 +1,40 @@
+/* GLOBAL STYLES */
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    line-height: 1.15;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: var(--font-base);
+    background-color: var(--primary-background);
+    font-weight: 400;
+    color: #373737;
+    text-align: left;
+}
+
+.btn-general {
+    font-family: var(--font-primary);
+    font-size: var(--font-body-large, 1.6rem);
+    font-weight: var(--fw-bold, 700);
+    background-color: transparent;
+    border: 0;
+    border-radius: var(--radius-full, 9999px);
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    vertical-align: middle;
+    min-inline-size: 0px;
+    color: var(--text-subtle, #a7a7a7);
+}
+

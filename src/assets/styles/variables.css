@@ -1,0 +1,96 @@
+:root {
+
+    /**          
+     * COLORS 
+     */
+
+    --primary-background: #fff;
+    --primary-headings: #74605A;
+    --primary-paragraphs: #6C6C6C;
+    --button-background: #B09E99;
+    --button-text: #FFFFFF;
+    --button-background-hover: #967F78;
+    --button-text-hover: #FFFFFF;
+
+    
+    /**          
+     * FONTS 
+     */
+    --heading_font-family: 'Lato', serif;
+    --heading_font-size: 2.25rem;
+    --heading_font-weight: 400;
+    --paragraph_font-family: 'Lato', serif;
+    --paragraph_font-size: 1.6rem;
+    --paragraph_font-weight: 400;
+    --navigation_font-family: 'Spectral', serif;
+    --navigation_font-weight: 300;
+    --navigation_font-style: normal;
+    --navigation_letter-spacing: 0.3em;
+    --navigation_text-transform: uppercase;
+    
+    /* font-size */
+    --font-base: 62.5%;
+    --fs-headline-large: 3.2rem;
+    --fs-headline-medium: 2.8rem;
+    --fs-headline-small: 2.4rem;
+    --font-body-large: 1.6rem;
+    --font-body-medium: 1.4rem;
+    --font-body-small: 1.2rem;
+    --fs-label-large: 1.4rem;
+    --fs-label-medium: 1.2rem;
+    --fs-label-small: 1.1rem;
+
+    /* Font weight */
+    --fw-light: 200;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-black: 900;
+
+
+    /**          
+     * SPACING 
+     */
+
+
+    --space-base: 4px;
+    --space-05: calc(var(--space-base) * 0.5);
+    --space-1: calc(var(--space-base) * 1);
+    --space-2: calc(var(--space-base) * 2);
+    --space-3: calc(var(--space-base) * 3);
+    --space-4: calc(var(--space-base) * 4);
+    --space-5: calc(var(--space-base) * 5);
+    --space-6: calc(var(--space-base) * 6);
+    --space-7: calc(var(--space-base) * 7);
+    --space-8: calc(var(--space-base) * 8);
+    --space-9: calc(var(--space-base) * 9);
+    --space-10: calc(var(--space-base) * 10);
+    --space-11: calc(var(--space-base) * 11);
+    --space-12: calc(var(--space-base) * 12);
+    --space-13: calc(var(--space-base) * 13);
+    --space-14: calc(var(--space-base) * 14);
+    --space-15: calc(var(--space-base) * 15);
+    --space-16: calc(var(--space-base) * 16);
+    --space-17: calc(var(--space-base) * 17);
+    --space-18: calc(var(--space-base) * 18);
+    --space-19: calc(var(--space-base) * 19);
+    --space-20: calc(var(--space-base) * 20);
+
+    --edge-x: 4.76vw;
+    /**          
+     * BORDER RADIUS
+     */
+
+    --radius-extra-small: 4px;
+    --radius-small: 8px;
+    --radius-medium: 12px;
+    --radius-large: 16px;
+    --radius-extra-large: 28px;
+    --radius-full: 1000px;
+
+    
+    /**          
+     * OTHERS
+     */
+
+}
