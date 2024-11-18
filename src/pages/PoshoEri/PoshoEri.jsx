@@ -11,14 +11,14 @@ const PoshoEri = () => {
                 </div>
                 <div className="box">
                     <div className="column">
-                        <img src="./img/pics/elposhoyeri/poshoyeri.webp" alt="Imagenes con el posho Benito y Eri" />  
+                        <img src="./img/pics/elposhoyeri/poshoyeri.webp" alt="Imagenes con el posho Benito y Eri" loading="lazy" />  
                     </div>
                     <div className="column">
-                        <img src="./img/pics/elposhoyeri/poshoyeri.webp" alt="Imagenes con el posho Benito y Eri" />    
+                        <img src="./img/pics/elposhoyeri/poshoyeri.webp" alt="Imagenes con el posho Benito y Eri" loading="lazy" />    
                     </div>
                     <div className="column">
-                        <img src="./img/pics/elposhoyeri/locojony.webp" alt="Imagenes con el posho Benito y Eri" />
-                        <img src="./img/pics/elposhoyeri/monobrandon.webp" alt="Imagenes con el posho Benito y Eri" />  
+                        <img src="./img/pics/elposhoyeri/locojony.webp" alt="Imagenes con el posho Benito y Eri" loading="lazy" />
+                        <img src="./img/pics/elposhoyeri/monobrandon.webp" alt="Imagenes con el posho Benito y Eri" loading="lazy" />  
                     </div>
                 </div>
             </div>
